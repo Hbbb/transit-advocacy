@@ -124,6 +124,10 @@ main {
 }
 
 @media screen and (max-width: 450px) {
+	aside {
+		flex-grow: 1.2;
+	}
+
 	.text-overlay {
 		font-size: 1rem;
 		top: 50%;
